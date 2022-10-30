@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dicee_iOS13" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Uhu-n2-TAB">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="cRW-3d-Gl2">
+                                <rect key="frame" x="0.0" y="59" width="430" height="839"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Gf-KD-hQk" userLabel="TopView">
+                                        <rect key="frame" x="0.0" y="0.0" width="430" height="278.33333333333331"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="v4S-LD-XkV">
+                                                <rect key="frame" x="117" y="75.333333333333343" width="196" height="128"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="v4S-LD-XkV" firstAttribute="centerY" secondItem="1Gf-KD-hQk" secondAttribute="centerY" id="XPL-QO-FjH"/>
+                                            <constraint firstItem="v4S-LD-XkV" firstAttribute="centerX" secondItem="1Gf-KD-hQk" secondAttribute="centerX" id="glk-7f-By3"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHH-Hn-qnP" userLabel="MiddleView">
+                                        <rect key="frame" x="0.0" y="280.33333333333337" width="430" height="278.33333333333337"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="EQ0-fK-3Gr">
+                                                <rect key="frame" x="90" y="89.333333333333371" width="250" height="100"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="ag5-VF-pmT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="etQ-EZ-ECh">
+                                                        <rect key="frame" x="150" y="0.0" width="100" height="100"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="EQ0-fK-3Gr" firstAttribute="centerX" secondItem="NHH-Hn-qnP" secondAttribute="centerX" id="9sR-qN-r7T"/>
+                                            <constraint firstItem="EQ0-fK-3Gr" firstAttribute="centerY" secondItem="NHH-Hn-qnP" secondAttribute="centerY" id="YnF-bX-4qT"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dSN-nh-vD9" userLabel="BottomView">
+                                        <rect key="frame" x="0.0" y="560.66666666666663" width="430" height="278.33333333333337"/>
+                                        <subviews>
+                                            <button opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6f7-Hr-1Z7">
+                                                <rect key="frame" x="155" y="99.333333333333371" width="120" height="80"/>
+                                                <color key="backgroundColor" red="0.55846852059999996" green="0.16155904530000001" blue="0.14507105949999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="fEI-a0-Mtb"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="jCy-U1-CTM"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Roll"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Roll" cornerStyle="capsule" titleAlignment="center">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="rollButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tl5-NZ-sOS"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="6f7-Hr-1Z7" firstAttribute="centerY" secondItem="dSN-nh-vD9" secondAttribute="centerY" id="L0X-sj-dwV"/>
+                                            <constraint firstItem="6f7-Hr-1Z7" firstAttribute="centerX" secondItem="dSN-nh-vD9" secondAttribute="centerX" id="p1k-a0-Tyd"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cRW-3d-Gl2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="D8S-2w-PDV"/>
+                            <constraint firstItem="Uhu-n2-TAB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="M1E-nm-Qb9"/>
+                            <constraint firstItem="Uhu-n2-TAB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iBJ-IO-Muy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cRW-3d-Gl2" secondAttribute="bottom" id="lYv-U3-NA7"/>
+                            <constraint firstItem="cRW-3d-Gl2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nB2-Bm-ePa"/>
+                            <constraint firstItem="Uhu-n2-TAB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qux-YB-iaJ"/>
+                            <constraint firstAttribute="bottom" secondItem="Uhu-n2-TAB" secondAttribute="bottom" id="rcc-Ni-UI2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cRW-3d-Gl2" secondAttribute="trailing" id="w4j-ro-KTN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="diceImageView1" destination="ag5-VF-pmT" id="gTC-Yj-e7I"/>
+                        <outlet property="diceImageView2" destination="etQ-EZ-ECh" id="9Gs-cR-4Fv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DiceOne" width="100" height="100"/>
+        <image name="DiceeLogo" width="196" height="128"/>
+        <image name="GreenBackground" width="444.66665649414062" height="414.33334350585938"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
