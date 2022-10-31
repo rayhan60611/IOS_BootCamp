@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -13,43 +13,98 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Rich" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="M M Rayhan Parvez" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulZ-xJ-4yz">
-                                <rect key="frame" x="62" y="106" width="270" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="M M Rayhan Parvez" translatesAutoresizingMaskIntoConstraints="NO" id="bBI-N8-Wet">
-                                <rect key="frame" x="61" y="166" width="270" height="270"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iP-98-hkq">
-                                <rect key="frame" x="149" y="467" width="94" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvg-cd-hX6">
-                                <rect key="frame" x="25" y="525" width="342" height="278"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">I am a highly professional, motivated and dedicated individual with strong communication and interpersonal skills, To Build Up My Career With A Well Known Organization Where I Can Show My Immense Aspiration To Become A Quick Learner And To Prove Myself As Sincere, Energetic And Devoted Educator Through Extensive Hard Working &amp;amp; Integrity, I am working in programming and web world for more than 1 years.Being a passionate individual with experiences in business field having Computer Science &amp;amp; Engineering background will help to use my potentials properly by holding this position. As the position suites me best so the career path will be much more flexible than other options. My over all skill makes me a Web developer, so you can hire me for your projects. Thanking you in advance for your time.</mutableString>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Cqg-gr-lZP">
+                                <rect key="frame" x="0.0" y="59" width="430" height="840.33333333333337"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXo-Wy-59W">
+                                        <rect key="frame" x="0.0" y="0.0" width="430" height="209.33333333333334"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M M Rayhan Parvez" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulZ-xJ-4yz">
+                                                <rect key="frame" x="80.333333333333343" y="87" width="269.33333333333326" height="35"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ulZ-xJ-4yz" firstAttribute="centerX" secondItem="vXo-Wy-59W" secondAttribute="centerX" id="GD6-uv-z6v"/>
+                                            <constraint firstItem="ulZ-xJ-4yz" firstAttribute="centerY" secondItem="vXo-Wy-59W" secondAttribute="centerY" id="H51-3X-FLT"/>
+                                            <constraint firstItem="ulZ-xJ-4yz" firstAttribute="centerY" secondItem="vXo-Wy-59W" secondAttribute="centerY" id="MSV-ne-KA2"/>
+                                            <constraint firstItem="ulZ-xJ-4yz" firstAttribute="centerX" secondItem="vXo-Wy-59W" secondAttribute="centerX" id="P1E-73-2aP"/>
+                                            <constraint firstItem="ulZ-xJ-4yz" firstAttribute="top" secondItem="vXo-Wy-59W" secondAttribute="top" constant="87" id="iz2-Se-KHy"/>
+                                            <constraint firstItem="ulZ-xJ-4yz" firstAttribute="leading" secondItem="vXo-Wy-59W" secondAttribute="leading" constant="80.333333333333343" id="s7g-g4-Isn"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N1f-XS-9dF">
+                                        <rect key="frame" x="0.0" y="210.33333333333331" width="430" height="209.33333333333331"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="M M Rayhan Parvez" translatesAutoresizingMaskIntoConstraints="NO" id="bBI-N8-Wet">
+                                                <rect key="frame" x="55" y="-55.333333333333314" width="320" height="320"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="bBI-N8-Wet" firstAttribute="centerY" secondItem="N1f-XS-9dF" secondAttribute="centerY" id="OHV-vS-ap6"/>
+                                            <constraint firstItem="bBI-N8-Wet" firstAttribute="top" secondItem="N1f-XS-9dF" secondAttribute="top" constant="-55.333333333333343" id="WUt-rA-q3a"/>
+                                            <constraint firstItem="bBI-N8-Wet" firstAttribute="centerX" secondItem="N1f-XS-9dF" secondAttribute="centerX" id="ebz-bt-Qe7"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lu0-H7-x1M">
+                                        <rect key="frame" x="0.0" y="420.66666666666669" width="430" height="209.33333333333331"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iP-98-hkq">
+                                                <rect key="frame" x="168.33333333333334" y="86.999999999999943" width="93.333333333333343" height="35"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="1iP-98-hkq" firstAttribute="top" secondItem="lu0-H7-x1M" secondAttribute="top" constant="87" id="1G8-1f-b0E"/>
+                                            <constraint firstItem="1iP-98-hkq" firstAttribute="centerY" secondItem="lu0-H7-x1M" secondAttribute="centerY" id="ixc-d7-bGh"/>
+                                            <constraint firstItem="1iP-98-hkq" firstAttribute="centerX" secondItem="lu0-H7-x1M" secondAttribute="centerX" id="nRs-5d-YdY"/>
+                                            <constraint firstAttribute="height" constant="100" id="wDD-JC-aMz"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gI1-q7-Ase">
+                                        <rect key="frame" x="0.0" y="631" width="430" height="209.33333333333337"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvg-cd-hX6">
+                                                <rect key="frame" x="44" y="22.666666666666629" width="342" height="164"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="164" id="Evo-kG-7Nz"/>
+                                                    <constraint firstAttribute="width" constant="342" id="IWw-Fc-t5J"/>
+                                                </constraints>
+                                                <mutableString key="text">I am a highly professional, motivated and dedicated individual with strong communication and interpersonal skills, To Build Up My Career With A Well Known Organization Where I Can Show My Immense Aspiration To Become A Quick Learner And To Prove Myself As Sincere, Energetic And Devoted Educator Through Extensive Hard Working &amp;amp; Integrity, I am working in programming and web world for more than 1 years.Being a passionate individual with experiences in business field having Computer Science &amp;amp; Engineering background will help to use my potentials properly by holding this position. As the position suites me best so the career path will be much more flexible than other options. My over all skill makes me a Web developer, so you can hire me for your projects. Thanking you in advance for your time.</mutableString>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Yvg-cd-hX6" firstAttribute="centerY" secondItem="gI1-q7-Ase" secondAttribute="centerY" id="Oef-kA-fqE"/>
+                                            <constraint firstItem="Yvg-cd-hX6" firstAttribute="centerX" secondItem="gI1-q7-Ase" secondAttribute="centerX" id="oEs-jL-1J4"/>
+                                            <constraint firstItem="Yvg-cd-hX6" firstAttribute="top" secondItem="gI1-q7-Ase" secondAttribute="top" constant="22.666666666666629" id="wCx-M1-Huh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.10980392156862745" green="0.40392156862745099" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.2020602524" green="0.39669865370000001" blue="0.34901589160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Cqg-gr-lZP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4tk-lz-EqA"/>
+                            <constraint firstItem="Cqg-gr-lZP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BXV-NG-al5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cqg-gr-lZP" secondAttribute="bottom" id="qQR-0A-GQh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cqg-gr-lZP" secondAttribute="trailing" id="xRq-DN-3uL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20.610687022900763" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="19.534883720930232" y="3.218884120171674"/>
         </scene>
     </scenes>
     <resources>
